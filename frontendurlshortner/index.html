@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document url shortner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+        integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+        crossorigin="anonymous"></script>
+
+
+
+    <div class="container">
+
+
+        <form>
+
+            <div class="row">
+                <div class="row">
+                    <h1 class="text-center">welcome to URL shortner</h1>
+                </div>
+                <div class="col-sm-4 ">
+                    <label class="col-form-label" for="url">Enter the url</label>
+                </div>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="url" name="longurl" placeholder="">
+                </div>
+                <div class="col-sm-2">
+                    <button type="submit" id="submit" class="btn btn-primary mb-2">submit</button>
+                </div>
+
+            </div>
+        </form>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">long url</th>
+                    <th scope="col">short url</th>
+                    <th scope="col">count</th>
+                </tr>
+            </thead>
+            <tbody id="trow">
+
+
+
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src=" index.js">
+    </script>
+</body>
+
+</html>
